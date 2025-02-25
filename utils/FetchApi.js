@@ -1,7 +1,7 @@
 import axios from "axios";
 // import { notFound } from "next/navigation";
 
-const API_ENDPOINT = "http://localhost:4000/api";
+const API_ENDPOINT = "https://server-gamma-beryl-35.vercel.app/api";
 export const fetchApi = async (path, method, data = null) => {
   const url = `${API_ENDPOINT}${path}`;
   // const user = localStorage.getItem("customer");
