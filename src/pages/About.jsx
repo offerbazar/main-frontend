@@ -7,34 +7,34 @@ const About = () => {
   return (
     <div>
       <div className='pt-8 text-2xl text-center border-t'>
-        <Title text1={'ABOUT'} text2={'US'} />
+        <Title text1={'আমাদের'} text2={'সম্পর্কে'} />
       </div>
       <div className='flex flex-col gap-16 my-10 md:flex-row'>
         <img className='w-full md:max-w-[450px]' src={assets.about_img} alt="About Photo" />
         <div className='flex flex-col justify-center gap-6 text-gray-600 md:w-2/4'>
-          <p>Welcome to Trendify, where style meets quality. Our mission is to bring you the latest fashion trends and must-have items, all curated with an eye for quality and design. We believe that everyone deserves to express themselves through fashion, and we're here to make that easier and more enjoyable. Our collections are carefully selected to offer you a range of options that cater to every taste and occasion.</p>
-          <p>At Trendify, we prioritize your satisfaction. From the moment you browse our site to the day your order arrives, we are dedicated to providing a seamless shopping experience. Our team is always on the lookout for the latest trends, ensuring that you have access to the freshest styles as soon as they hit the runway. Thank you for choosing Trendify. We’re excited to be a part of your style journey.</p>
-          <b className='text-gray-800'>Our Mission</b>
-          <p>At Trendify, our mission is to empower you to express your unique style with high-quality, on-trend fashion. We strive to make fashion accessible to all, offering diverse products that inspire confidence.</p>
-          <b className='text-gray-800'>Our Vision</b>
-          <p>At Trendify, our vision is to be a global fashion leader, known for cutting-edge style and quality. We aim to inspire confidence and creativity, making Trendify the go-to choice for individual expression.</p>
+          <p>স্বাগতম <b>অফার বাজার ছাগলনাইয়া</b>-তে, যেখানে গুণগত মান ও আস্থার সঙ্গে আপনার প্রয়োজনীয় বাজারসামগ্রী সরবরাহ করা হয়। আমাদের লক্ষ্য হলো আপনাকে সাশ্রয়ী মূল্যে সেরা পণ্য প্রদান করা। আমরা বিশ্বাস করি, সবাই ভালো মানের পণ্য পাওয়ার যোগ্য, আর আমরা সেটাই নিশ্চিত করতে প্রতিশ্রুতিবদ্ধ।</p>
+          <p><b>অফার বাজার ছাগলনাইয়া</b> আপনার সন্তুষ্টিকে সর্বোচ্চ অগ্রাধিকার দেয়। আমাদের প্ল্যাটফর্মে কেনাকাটার শুরু থেকে পণ্য হাতে পাওয়া পর্যন্ত আমরা আপনাকে একটি নিরবচ্ছিন্ন ও ঝামেলামুক্ত অভিজ্ঞতা দিতে বদ্ধপরিকর। আমরা সর্বদা নতুন ও মানসম্মত পণ্য সংগ্রহের চেষ্টা করি, যাতে আপনি সহজেই প্রয়োজনীয় পণ্য পেতে পারেন। <b>অফার বাজার ছাগলনাইয়া</b>-কে বেছে নেওয়ার জন্য আপনাকে ধন্যবাদ। আমরা আনন্দিত যে, আমরা আপনার বাজারসঙ্গী হতে পেরেছি।</p>
+          <b className='text-gray-800'>আমাদের লক্ষ্য</b>
+          <p><b>অফার বাজার ছাগলনাইয়া</b>-এর লক্ষ্য হলো গ্রাহকদের সাশ্রয়ী মূল্যে গুণগতমানসম্পন্ন পণ্য সরবরাহ করা। আমরা চাই, সবাই সহজেই তাদের প্রয়োজনীয় পণ্য সংগ্রহ করতে পারে এবং বাজারের সেরা অফার উপভোগ করতে পারে।</p>
+          <b className='text-gray-800'>আমাদের ভিশন</b>
+          <p><b>অফার বাজার ছাগলনাইয়া</b>-এর স্বপ্ন হলো বাংলাদেশের সবচেয়ে বিশ্বস্ত ও নির্ভরযোগ্য বাজার প্ল্যাটফর্ম হিসেবে পরিচিত হওয়া। আমরা চাই প্রতিটি ক্রেতা আমাদের মাধ্যমে তাদের প্রয়োজনীয় পণ্য সহজে, দ্রুত এবং নির্ভরতার সঙ্গে পেতে পারে।</p>
         </div>
       </div>
       <div className='py-4 text-xl'>
-        <Title text1={'WHY'} text2={'CHOOSE US'} />
+        <Title text1={'কেন'} text2={'আমাদের নির্বাচন করবেন'} />
       </div>
       <div className='flex flex-col mb-20 text-sm md:flex-row'>
         <div className='flex flex-col gap-5 px-10 py-8 border md:px-16 sm:py-20'>
-          <b>Quality Assurance</b>
-          <p className='text-gray-600'>At Trendify, quality comes first. Every product is carefully chosen and inspected to meet our high standards. Shop with confidence, knowing we ensure excellence in every detail.</p>
+          <b>গুণগত মান</b>
+          <p className='text-gray-600'><b>অফার বাজার ছাগলনাইয়া</b>-তে মানই প্রধান। প্রতিটি পণ্য আমরা যাচাই-বাছাই করি এবং উচ্চ মান বজায় রাখার জন্য নিরবচ্ছিন্নভাবে কাজ করি।</p>
         </div>
         <div className='flex flex-col gap-5 px-10 py-8 border md:px-16 sm:py-20'>
-          <b>Convenience</b>
-          <p className='text-gray-600'>Trendify ensures a smooth shopping experience with easy browsing, fast shipping, simple returns, and multiple payment options. Your comfort and satisfaction are our priorities.</p>
+          <b>সহজ কেনাকাটা</b>
+          <p className='text-gray-600'><b>অফার বাজার ছাগলনাইয়া</b> আপনাকে সহজ এবং ঝামেলামুক্ত কেনাকাটার অভিজ্ঞতা দেয়। আমাদের রয়েছে দ্রুত ডেলিভারি, সহজ পেমেন্ট অপশন, এবং রিটার্ন সুবিধা।</p>
         </div>
         <div className='flex flex-col gap-5 px-10 py-8 border md:px-16 sm:py-20'>
-          <b>Exceptional Customer Service</b>
-          <p className='text-gray-600'>At Trendify, exceptional service is our promise. Our dedicated support team is here to assist you with any questions or concerns, ensuring a smooth and satisfying shopping experience.</p>
+          <b>সেরা কাস্টমার সার্ভিস</b>
+          <p className='text-gray-600'>আমাদের কাস্টমার সার্ভিস টিম সর্বদা আপনাদের সহায়তায় প্রস্তুত। যেকোনো প্রশ্ন বা সমস্যার জন্য আমরা আছি আপনার পাশে।</p>
         </div>
       </div>
       <NewsLetterBox />

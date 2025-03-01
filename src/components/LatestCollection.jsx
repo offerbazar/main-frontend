@@ -3,7 +3,6 @@ import Title from "./Title";
 import ProductItem from "./ProductItem";
 import { fetchApi } from "../../utils/FetchApi";
 
-
 const LatestCollection = () => {
   const [latestProducts, setLatestProducts] = useState([]);
 
@@ -11,7 +10,7 @@ const LatestCollection = () => {
     const fetchLatestProducts = async () => {
       try {
         const data = await fetchApi("/product/list", "GET");
-        setLatestProducts(data?.products?.slice(0, 10)); 
+        setLatestProducts(data?.products?.slice(0, 10));
       } catch (error) {
         console.error("Failed to fetch latest products", error);
       }
@@ -23,10 +22,10 @@ const LatestCollection = () => {
   return (
     <div className="my-10">
       <div className="py-8 text-3xl text-center">
-        <Title text1="LATEST" text2="COLLECTIONS" />
+        <Title text1="নতুন" text2="সংগ্রহ" />
         <p className="w-3/4 m-auto text-xs text-gray-600 sm:text-sm md:text-base">
-          Step into a world of style with our newest collections, carefully
-          curated to bring you the best in fashion, home decor, and more.
+          আমাদের নতুন সংগ্রহে স্বাগতম! স্টাইল, গৃহসজ্জা এবং আরও অনেক কিছুতে সেরা
+          পণ্যগুলো উপভোগ করুন।
         </p>
       </div>
 
@@ -43,7 +42,9 @@ const LatestCollection = () => {
             />
           ))
         ) : (
-          <p className="col-span-full text-center text-gray-500">No products found.</p>
+          <p className="col-span-full text-center text-gray-500">
+            No products found.
+          </p>
         )}
       </div>
     </div>
