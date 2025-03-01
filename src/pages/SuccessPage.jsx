@@ -21,7 +21,7 @@ const SuccessPage = () => {
         {/* Button to navigate */}
         <button
           onClick={() => navigate('/')} // Go to the home or collection page
-          className="px-8 py-3 text-white bg-black rounded-lg text-xl transition-all hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-green-500"
+          className="px-8 py-3 text-white bg-[#F49D1A] rounded-lg text-xl transition-all hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-green-500"
         >
           Go to Home or Collection
         </button>

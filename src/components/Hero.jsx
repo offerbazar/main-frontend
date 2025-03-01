@@ -29,7 +29,7 @@ const Hero = () => {
             <p className="w-8 md:w-11 h-[2px] bg-[#414141]"></p>
             <p className="text-sm font-medium md:text-base">OUR BEST SELLERS</p>
           </div>
-          <h1 className="text-3xl leading-relaxed sm:py-3 lg:text-5xl prata-regular">
+          <h1 className="text-3xl leading-relaxed sm:py-3 lg:text-5xl prata-regular text-[#F49D1A]">
             Latest Arrivals
           </h1>
           <div className="flex items-center gap-2">

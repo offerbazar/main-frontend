@@ -117,7 +117,7 @@ const Collection = () => {
         </div>
 
         {/* ক্লিয়ার ফিল্টার বাটন */}
-        <button className={`px-4 py-2 mt-1 text-white bg-black rounded hover:bg-gray-900 ${showFilter ? "block" : "hidden"} sm:block`} onClick={clearFilters}>
+        <button className={`px-4 py-2 mt-1 text-white bg-[#F49D1A] rounded hover:bg-gray-900 ${showFilter ? "block" : "hidden"} sm:block`} onClick={clearFilters}>
           Clear Filters
         </button>
       </div>

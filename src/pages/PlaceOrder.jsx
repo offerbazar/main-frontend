@@ -174,7 +174,7 @@ const PlaceOrder = () => {
           <div className="w-full mt-8 text-end">
             <button
               onClick={handleSubmit}
-              className={`px-16 py-3 text-sm text-white bg-black active:bg-gray-800 ${
+              className={`px-16 py-3 text-sm text-white bg-[#F49D1A] active:bg-gray-800 ${
                 delivery_fee === 0 ? "opacity-50 cursor-not-allowed" : ""
               }`}
               disabled={delivery_fee === 0}

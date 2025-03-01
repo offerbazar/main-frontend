@@ -74,7 +74,7 @@ const Cart = () => {
                   onClick={() => updateQuantity(item._id, item.quantity - 1)}
                   className={`px-2 py-1 border ${
                     item.quantity === 1 ? "opacity-50 cursor-not-allowed" : ""
-                  }`}
+                  } `}
                   disabled={item.quantity === 1}
                 >
                   -
@@ -106,7 +106,7 @@ const Cart = () => {
           <div className="w-full text-end">
             <button
               onClick={() => navigate("/place-order")}
-              className={`px-8 py-3 my-8 text-sm text-white bg-black active:bg-gray-700 ${
+              className={`px-8 py-3 my-8 text-sm text-white bg-[#F49D1A] active:bg-gray-700 ${
                 isCartEmpty || delivery_fee === 0
                   ? "opacity-50 cursor-not-allowed"
                   : ""
