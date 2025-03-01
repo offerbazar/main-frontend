@@ -67,7 +67,7 @@ const PlaceOrder = () => {
       {/* Left Side Content */}
       <div className="flex flex-col w-full gap-4 sm:max-w-[480px]">
         <div className="my-3 text-xl sm:text-2xl">
-          <Title text1={"DELIVERY"} text2={"INFORMATION"} />
+          <Title text1={"ডেলিভারি"} text2={"তথ্য"} />
         </div>
         <div className="flex gap-3">
           <input

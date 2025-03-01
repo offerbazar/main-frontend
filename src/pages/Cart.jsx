@@ -33,7 +33,7 @@ const Cart = () => {
   return (
     <div className="border-t pt-14">
       <div className="mb-3 text-2xl">
-        <Title text1={"YOUR"} text2={"CART"} />
+        <Title text1={"আপনার"} text2={"কার্ট"} />
       </div>
       <div>
         {cartData.map((item, index) => {
