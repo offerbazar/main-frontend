@@ -22,7 +22,7 @@ const PlaceOrder = () => {
     mobile: "",
     paymentMethod: "cod",
     items: [],
-    totalAmount: getCartAmount(),
+    totalAmount: getCartAmount() + delivery_fee,
   });
 
   useEffect(() => {
